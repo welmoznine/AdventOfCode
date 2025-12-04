@@ -7,7 +7,7 @@ public class Day2Part2 {
         long ans = 0;
 
         // Get the single long line of ID ranges from the input file
-        String line = Files.readString(Paths.get("input.txt"));
+        String line = Files.readString(Paths.get("AoC2025/inputs/Day2Input.txt"));
 
         // Split the ranges by comma
         String[] ranges = line.split(",");

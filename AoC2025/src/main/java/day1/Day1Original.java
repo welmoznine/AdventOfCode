@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Day1OriginalPart2 {
+public class Day1Original {
     public static void main(String[] args) {
         // Create a variable to track the answer (number of times the dial points at 0)
         int ans = 0;
@@ -9,9 +9,9 @@ public class Day1OriginalPart2 {
         int dial = 50;
 
         // Path to the input file containing the sequence of rotations
-        String rotations = "input.txt";
+        String rotations = "AoC2025/inputs/Day1Input.txt";
 
-        // Open input.txt to read the sequence of rotations
+        // Open input file to read the sequence of rotations
         try (BufferedReader bufferReader = new BufferedReader(new FileReader(rotations))) {
             String currentLine; // Store the current line of the file
 
@@ -34,17 +34,17 @@ public class Day1OriginalPart2 {
                 // Get the number of clicks after the first character
                 int number = Integer.parseInt(currentLine.substring(1));
 
-                // Instead of using modulo like in Part 1, rotate step by step
-                for (int i = 0; i < number; i++) {
-                    // Move the dial one click in the correct direction
-                    dial += leftOrRight;
+                // Update the dial position (circular from 0 to 99)
+                dial = (dial + leftOrRight * number) % 100;
 
-                    // Wrap around if dial goes below 0 or above 99
-                    if (dial < 0) dial = 99;
-                    if (dial > 99) dial = 0;
+                // If the result is negative, wrap around to the other end of the dial
+                if (dial < 0) {
+                    dial += 100;
+                }
 
-                    // Increment answer every time we hit 0
-                    if (dial == 0) ans++;
+                // If the dial points at 0, increment the answer
+                if (dial == 0) {
+                    ans++;
                 }
             }
 

@@ -9,8 +9,8 @@ public class Day1Optimized {
         // Variable to track the answer (number of times the dial points at 0)
         int ans = 0;
 
-        // Read all lines from input.txt into a list of strings
-        for (String line : Files.readAllLines(Paths.get("input.txt"))) {
+        // Read all lines from input file into a list of strings
+        for (String line : Files.readAllLines(Paths.get("AoC2025/inputs/Day1Input.txt"))) {
 
             // Get the first character to determine rotation direction ('L' or 'R')
             char first = line.charAt(0);

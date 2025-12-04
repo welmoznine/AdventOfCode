@@ -10,9 +10,9 @@ public class Day1OptimizedPart2 {
         int dial = 50;
 
         // Path to the input file containing the sequence of rotations
-        String rotations = "input.txt";
+        String rotations = "AoC2025/inputs/Day1Input.txt";
 
-        // Open input.txt and read it line by line
+        // Open input file and read it line by line
         try (BufferedReader bufferReader = new BufferedReader(new FileReader(rotations))) {
             String currentLine; // Stores the current rotation instruction
 
