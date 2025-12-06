@@ -9,3 +9,5 @@
   - **Day 3, Part 2**: Determine the largest possible joltage from each battery bank by turning on exactly twelve batteries; sum them across all banks.
   - **Day 4, Part 1**: Count the rolls of paper (@) that a forklift can access (fewer than four rolls in the eight adjacent positions).
   - **Day 4, Part 2**: Repeatedly remove accessible rolls of paper until no more can be removed; count the total number removed.
+  - **Day 5, Part 1**: Determine how many available ingredient IDs are fresh by checking each ID against the fresh ID ranges.
+  - **Day 5, Part 2**: Merge overlapping or touching fresh ID ranges and count how many unique ingredient IDs are considered fresh.
