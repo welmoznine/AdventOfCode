@@ -1,13 +1,47 @@
 # 🎄 My Advent of Code solutions
 
-- **2025**: Learning Java  
-  - **Day 1, Part 1**: Dial rotation puzzle (count how many times the dial points at 0).  
-  - **Day 1, Part 2**: Count every dial rotation that passes 0, step by step.
-  - **Day 2, Part 1**: Find invalid gift shop IDs, where numbers made of a repeated sequence of digits twice are invalid.  
-  - **Day 2, Part 2**: Find invalid gift shop IDs, where any number made of a repeating sequence at least twice is invalid.
-  - **Day 3, Part 1**: Determine the largest possible joltage from each battery bank by turning on exactly two batteries; sum them across all banks.  
-  - **Day 3, Part 2**: Determine the largest possible joltage from each battery bank by turning on exactly twelve batteries; sum them across all banks.
-  - **Day 4, Part 1**: Count the rolls of paper (@) that a forklift can access (fewer than four rolls in the eight adjacent positions).
-  - **Day 4, Part 2**: Repeatedly remove accessible rolls of paper until no more can be removed; count the total number removed.
-  - **Day 5, Part 1**: Determine how many available ingredient IDs are fresh by checking each ID against the fresh ID ranges.
-  - **Day 5, Part 2**: Merge overlapping or touching fresh ID ranges and count how many unique ingredient IDs are considered fresh.
+- **AoC 2025**: Learning Java
+  - **Day 1**
+    - Part 1: Dial rotation puzzle (count how many times the dial points at 0).  
+    - Part 2: Count every dial rotation that passes 0, step by step.
+      
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day1Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day1Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day1/Day1Original.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day1/Day1OriginalPart2.java)
+
+  - **Day 2**
+    - Part 1: Find invalid gift shop IDs, where numbers made of a repeated sequence of digits twice are invalid.  
+    - Part 2: Find invalid gift shop IDs, where any number made of a repeating sequence at least twice is invalid.
+    
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day2Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day2Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day2/Day2Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day2/Day2Part2.java)
+
+  - **Day 3**
+    - Part 1: Determine the largest possible joltage from each battery bank by turning on exactly two batteries; sum them across all banks.  
+    - Part 2: Determine the largest possible joltage by turning on exactly twelve batteries; sum across all banks.
+    
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day3Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day3Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day3/Day3Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day3/Day3Part2.java)
+
+  - **Day 4**
+    - Part 1: Count the rolls of paper (@) that a forklift can access.  
+    - Part 2: Repeatedly remove accessible rolls until none remain.
+    
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day4Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day4Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day4/Day4Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day4/Day4Part2.java)
+
+  - **Day 5**
+    - Part 1: Count fresh ingredient IDs by checking each ID.  
+    - Part 2: Merge overlapping/touching fresh ID ranges and count unique IDs.
+    
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day5Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day5Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day5/Day5Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day5/Day5Part2.java)
