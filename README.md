@@ -45,3 +45,12 @@
     [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day5Input.txt)
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day5/Day5Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day5/Day5Part2.java)
+
+  - **Day 6**
+    - Part 1: Read each homework problem *left-to-right*, where each problem is a block of columns separated by a blank column. Each block contains several multi-digit numbers (one per row) and an operator (`+` or `*`) on the last row. Parse the block, evaluate it, and add the result to the total.
+    - Part 2: Read each homework problem *column-by-column*, where each column contains a vertical number, and the operator (`+` or `*`) is on the bottom row. Each column represents one number; evaluate the operation across all columns in that block.
+
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day6Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day6Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day6/Day6Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day6/Day6Part2.java)
