@@ -54,3 +54,12 @@
     [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day6Input.txt)
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day6/Day6Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day6/Day6Part2.java)
+
+  - **Day 7**
+    - Part 1: Trace a tachyon beam falling downward through a grid. When it hits a splitter (`^`), the beam stops and splits into a left and right beam. Count how many total split events occur.
+    - Part 2: Instead of 1 beam, track how many timelines reach each column. A splitter duplicates timelines (left + right), and empty space continues the same number downward. Sum all timelines at the bottom.
+      
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day7Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day7Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day7/Day7Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day7/Day7Part2.java)
