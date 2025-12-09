@@ -63,3 +63,12 @@
     [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day7Input.txt)
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day7/Day7Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day7/Day7Part2.java)
+
+  - **Day 8**
+    - Part 1: Treat each junction box (given by X,Y,Z coordinates) as a node. Compute all pairwise distances, sort them, then connect the 1000 closest pairs using a DSU. After all unions, determine the sizes of all circuits and multiply the sizes of the three largest circuits.
+    - Part 2: Continue connecting pairs (from smallest distance upward) until all junction boxes are in a single circuit. The last successful union that merges two previously separate circuits gives the final required pair; multiply their X coordinates.
+
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day8Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day8Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day8/Day8Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day8/Day8Part2.java)
