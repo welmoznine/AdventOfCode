@@ -72,3 +72,13 @@
     [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day8Input.txt)
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day8/Day8Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day8/Day8Part2.java)
+
+  - **Day 9**
+    - Part 1: Find the largest possible rectangle area that has two red tiles as opposite corners. Brute-force all pairs of tiles and calculate the max area.
+    - Part 2: Find the largest rectangle that has two red tiles as opposite corners and is composed entirely of red or green tiles. Brute-force all pairs and add a geometric check (Point in Polygon / No Edge Crossing).
+
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day9Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day9Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day9/Day9Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day9/Day9Part2.java)
+
