@@ -82,3 +82,12 @@
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day9/Day9Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day9/Day9Part2.java)
 
+  - **Day 10**
+    - Part 1: Each machine has lights and buttons. Buttons toggle certain lights on/off. The goal is to find the minimum number of button presses to reach a given target light pattern. Solved using Gauss-Jordan elimination over GF(2) (binary system) with null space exploration to account for free variables.
+    - Part 2: Generalizes Part 1 to "joltage machines" where buttons increment counters and each counter has a target value. The problem is represented as a linear system A*x = b. Reduced Row Echelon Form (RREF) identifies pivot and free variables. DFS over all free variable combinations finds the minimum total button presses that satisfy all counters.
+
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day10Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day10Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day10/Day10Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day10/Day10Part2.java)
+
