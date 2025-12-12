@@ -91,3 +91,12 @@
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day10/Day10Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day10/Day10Part2.java)
 
+  - **Day 11**
+    - Part 1: Find the total number of paths from a starting device (`you`) to an ending device (`out`). Solved using DFS with memoization to efficiently count paths by avoiding re-computation for shared sub-paths.
+    - Part 2: Find the number of paths from a new start node (`svr`) to `out` that *must* visit two specific intermediate nodes (`dac` and `fft`). Solved by decomposing the problem into two sequential path-counting subproblems (since the graph is a DAG): `svr` $\to$ `dac` $\to$ `fft` $\to$ `out` and `svr` $\to$ `fft` $\to$ `dac` $\to$ `out`. The total is the sum of paths from Sequence 1 and Sequence 2, calculated using the multiplication principle on the path counts of the segments.
+
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day11Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day11Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day11/Day11Part1.java)
+    [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day11/Day11Part2.java)
+
