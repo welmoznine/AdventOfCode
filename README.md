@@ -100,3 +100,13 @@
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day11/Day11Part1.java)
     [![Part 2](https://img.shields.io/badge/Part%202-Code-lightgrey?style=flat)](AoC2025/src/main/java/day11/Day11Part2.java)
 
+
+  - **Day 12**
+    - Part 1: Trick problem. Instead of solving a true 2D tiling / polyomino packing problem, the input is constructed so that feasibility can be determined purely by comparing total present area to region area. If the total area of all required presents is sufficiently smaller than the region area (using an empirical threshold), the region is guaranteed to be solvable.
+    - Part 2: No code required for Part 2!
+
+    [![Puzzle](https://img.shields.io/badge/Puzzle-View-blue?style=flat)](AoC2025/puzzles/Day12Puzzle.txt)
+    [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day12Input.txt)
+    [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day12/Day12Part1.java)
+
+
