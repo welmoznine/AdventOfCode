@@ -109,4 +109,5 @@
     [![Input](https://img.shields.io/badge/Input-View-blue?style=flat)](AoC2025/inputs/Day12Input.txt)
     [![Part 1](https://img.shields.io/badge/Part%201-Code-lightgrey?style=flat)](AoC2025/src/main/java/day12/Day12Part1.java)
 
+<img width="644" height="590" alt="Screenshot from 2025-12-12 19-56-10" src="https://github.com/user-attachments/assets/9d15cfb0-2fa7-4115-ba66-2760df45929f" />
 
